@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblFavorite.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblFavorite.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 12pt</value>
+  </data>
+  <data name="lblFavorite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 404</value>
+  </data>
+  <data name="lblFavorite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="lblFavorite.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFavorite.Text" xml:space="preserve">
+    <value>Omiljeni igrači</value>
+  </data>
+  <data name="&gt;&gt;lblFavorite.Name" xml:space="preserve">
+    <value>lblFavorite</value>
+  </data>
+  <data name="&gt;&gt;lblFavorite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFavorite.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFavorite.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblChampionship.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblChampionship.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 12pt</value>
+  </data>
+  <data name="lblChampionship.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="lblChampionship.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="lblChampionship.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblChampionship.Text" xml:space="preserve">
+    <value>Reprezentacija</value>
+  </data>
+  <data name="&gt;&gt;lblChampionship.Name" xml:space="preserve">
+    <value>lblChampionship</value>
+  </data>
+  <data name="&gt;&gt;lblChampionship.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChampionship.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblChampionship.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="DataGridAllPlayersImage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="DataGridAllPlayersImage.HeaderText" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <metadata name="PlayerName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PlayerName.HeaderText" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <metadata name="ShirtNumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ShirtNumber.HeaderText" xml:space="preserve">
+    <value>Broj</value>
+  </data>
+  <metadata name="Position.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Position.HeaderText" xml:space="preserve">
+    <value>Pozicija</value>
+  </data>
+  <metadata name="Captain.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Captain.HeaderText" xml:space="preserve">
+    <value>Kapetan</value>
+  </data>
+  <data name="dataGridAllPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 68</value>
+  </data>
+  <data name="dataGridAllPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 258</value>
+  </data>
+  <data name="dataGridAllPlayers.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dataGridAllPlayers.Name" xml:space="preserve">
+    <value>dataGridAllPlayers</value>
+  </data>
+  <data name="&gt;&gt;dataGridAllPlayers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridAllPlayers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridAllPlayers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="tstbChampionship.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="tstbChampionship.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tstbChampionship.Text" xml:space="preserve">
+    <value>Reprezentacija:</value>
+  </data>
+  <data name="toolStripRepresentations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="menuStrip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1237, 27</value>
+  </data>
+  <data name="menuStrip2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="menuStrip2.Text" xml:space="preserve">
+    <value>menuStrip2</value>
+  </data>
+  <data name="&gt;&gt;menuStrip2.Name" xml:space="preserve">
+    <value>menuStrip2</value>
+  </data>
+  <data name="&gt;&gt;menuStrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="dataGridViewImageColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Broj</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Pozicija</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Kapetan</value>
+  </data>
+  <data name="dataGridFavorite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 427</value>
+  </data>
+  <data name="dataGridFavorite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 196</value>
+  </data>
+  <data name="dataGridFavorite.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;dataGridFavorite.Name" xml:space="preserve">
+    <value>dataGridFavorite</value>
+  </data>
+  <data name="&gt;&gt;dataGridFavorite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridFavorite.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridFavorite.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="dataGridViewImageColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Golovi</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Žuti kartoni</value>
+  </data>
+  <data name="dataGridFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 68</value>
+  </data>
+  <data name="dataGridFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>545, 258</value>
+  </data>
+  <data name="dataGridFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dataGridFilter.Name" xml:space="preserve">
+    <value>dataGridFilter</value>
+  </data>
+  <data name="&gt;&gt;dataGridFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridFilter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAddToFavorites.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 352</value>
+  </data>
+  <data name="btnAddToFavorites.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 29</value>
+  </data>
+  <data name="btnAddToFavorites.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnAddToFavorites.Text" xml:space="preserve">
+    <value>Dodaj u omiljene</value>
+  </data>
+  <data name="&gt;&gt;btnAddToFavorites.Name" xml:space="preserve">
+    <value>btnAddToFavorites</value>
+  </data>
+  <data name="&gt;&gt;btnAddToFavorites.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToFavorites.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddToFavorites.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRemoveFavorite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 352</value>
+  </data>
+  <data name="btnRemoveFavorite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 29</value>
+  </data>
+  <data name="btnRemoveFavorite.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnRemoveFavorite.Text" xml:space="preserve">
+    <value>Ukloni iz omiljenih</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFavorite.Name" xml:space="preserve">
+    <value>btnRemoveFavorite</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFavorite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFavorite.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFavorite.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridViewImageColumn3.HeaderText" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 215</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>751, 453</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 0</value>
+  </data>
+  <data name="btnSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 27</value>
+  </data>
+  <data name="btnSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Name" xml:space="preserve">
+    <value>btnSettings</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 45</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
+    <value>lblFilter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>36</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1237, 664</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAgIAAAAEACAAoTAAAFgAAACgAAACAAAAAAAEAAAEACAAAAAAAAEAAAHsYAAB7GAAAAAEAAAAB
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR
+        NVl8obK/zNnm8/Pm2cy/sqF8WTURAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAKQ4C75vn5+fn5+fn5+fn5+fn5+fn5+fn5+fnmu4BDCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAj+EwPT5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn0wIQ/AgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAANYzg+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fngjDUAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAigdf5+fn5+fn5+fn5+fn0zqd8XlZPSUI7PYvm+fn5+fn5+fn5+fn5+fn5
+        +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
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn13cKrkXZeRCoQAAAAAAAAAAAA
+        AAAI0/n5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5qIP5+fmtAAAAAAAAAAAAAAAAAAAAAAAAAAAj
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fnv
+        1bukiW9XPCMJAIX5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fmDXvn5+dMAAAAAAAAAAAAAAAAA
+        AAAAAAAAAC75+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fno9vn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+V44+fn59QUAAAAA
+        AAAAAAAAAAAAAAAAAAAAOfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5t152
+        kKvC3PT5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5OBP5
+        +fn5KQAAAAAAAAAAAAAAAAAAAAAAAABF+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+dMRAAAAAAAAARYvSmR8lq/H4vf5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fkTAOf5+flQAAAAAAAAAAAAAAAAAAAAAAAAAFH5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fniIQAAAAAAAAAAAAAAAAAAAAAABBw1T2mCnLPN5/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn55wAAu/n5+XYAAAAAAAAAAAAAAAAAAAAAAAAAXPn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn57TIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACDn5+fn5+fn5+fn5
+        +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
+        AAAP////////wAAAAAAAAAAAA////////4AAAAAgAAAAAAH///////8AAAAP4AAAAAAA///////8AAAB
+        //AAAAAAAD//////+AAAf//4AAAAAAAf//////AAH////AAAAAAAD//////gAf////wAAAAAGAf/////
+        wAP////+AAAAABwD/////4AH/////wAAAAAeAf////8AD/////+AAAAAHwD////+AA//////gAAAAD+A
+        f////gAf/////8AAAAA/wD////wAP//////AAAAAP+A////4AH//////wAAAAD/wH///8AB//////4AA
+        AAA/+A///+AA//////8B//AAP/wH///gAP//////A///4B/+B///wAH//////gf///gf/gP//4AD////
+        //4H///8D/8B//+AA//////8D////A//gf//AAf//////A////4H/8D//wAH//////gf////A//A//4A
+        D//////wH////wP/4H/+AAf/////8D////+B/+B//AAD/////+B/////gf/wP/wAA//////gf////8D/
+        8D/4AAH/////wP/////A//gf+AGB/////8D/////4H/4H/ADwP////+B/////+B//A/wD8B/////Af//
+        ///wP/wP8B/gf////wP/////8D/+D+A/8D////4H//////gf/gfgf/Af///+B//////4H/4HwP/4H///
+        /A///////A//A8D//A////gP//////4H/wPB//wH//+AH//////+B/+Dwf/+B//gAD///////wP/g4H/
+        /wP8AAA///////8D/4GB//8DwAAAP///////gf/Bg///gAAAAD///////4H/wYP//4AAAAAf///////A
+        /8GD///AAAAAH///////wD/BA///4AAAAA///////8APwAP//+AAAAAP///////AA8AH///gAAAAB///
+        ////gAHgB///4AAAAAP//////4AAYAf//+AAAAAD//////8AACAH///gAAAAAf//////AAAAB///4AAA
+        AAH//////gAAAAf//8AAAAAA//////4AAAAH///AAAAAAP/////8AAAAB///wAAAAAB/////+AAAAAf/
+        /8AAAAAAf/////gAAAAH///AAAAAAD/////wAAAAB///wAAAAAA/////8AAAAAf//8AAAAAAH////+AA
+        AAAH///AAAAAAB/////AAAAAB///gAAAAAAP////wAAAAAf//4AAAAAAAA///4AAAAAH//+AAAAAAAAA
+        B/8AAAAAB///gAAAAAAAAAABAAAAAAf//4AAAAAAAAAAAAAAAAAD//+AAAAAAAAAAAAAAAAAA///gAAA
+        AAAPwAAAAAAAAIP//4AAAAAAH//wAAAAAAGD//+AAAAAAD////wAAAABg///gAAAAAB/////AAAAAYH/
+        /gAAAAAA/////wAAAAGA//gAAAAAAf////8AAAABwP/wAAAAAAP/////gAAAA8B/wAAAAAAD/////4AA
+        AAPAfwAYAAAAB//////AAAADwD4AfAAAAA//////wAAAA+AYAf8AAAAf/////8AAAAfgAAP/wAAAP///
+        ///gAAAH8AAP/+AAAH//////4AAAD/AAP//4AAD///////AAAA/wAH///gAB///////wAAAP+AH////A
+        A///////8AAAH/gD////8AP///////gAAB/8Af////wD///////4ABA//AH/////Af//////+ABwP/4B
+        /////4H///////gB4H/+AP/////B///////wB+B//wD/////wP//////4B/A//8Af////8D//////8B/
+        wP//gH/////g//////+A/4H//4B/////4H//////Af8B///AP////+B//////gH+A///4D/////wf///
+        //4D/gf//+Af////8D/////8B/wH///wH/////A/////+A/4D///+A/////4P/////Af8B////wH////
+        +B/////gP+A////8A/////gf////wH/AP////gH////8H////4D/gH////8A/////A////8B/wD/////
+        gH////wP///+Af4B/////8A////+D////gP8A//////gH////gf///wH+Af/////8Af///4H///4D+AP
+        //////gD////B///8B/AH//////8Af///wAH/+A/gD///////wB///4AAAAAfgD///////+AH//8AAAA
+        APgB////////wAf/8AAAAAHwA/////////AD/8AAAAABwA/////////4AH8AAAAAAAAf/////////gAc
+        AAAAAAAAf/////////+AAAAAAAAAAf//////////4AAAAAAAAAf///////////gAAAAAAAAf////////
+        ///+AAAAAAAAf////////////8AAAAAAA//////////////wAAAAAA///////////////wAAAAD/////
+        ///////////4AAAf////////
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Početna stranica</value>
+  </data>
+  <data name="&gt;&gt;DataGridAllPlayersImage.Name" xml:space="preserve">
+    <value>DataGridAllPlayersImage</value>
+  </data>
+  <data name="&gt;&gt;DataGridAllPlayersImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayerName.Name" xml:space="preserve">
+    <value>PlayerName</value>
+  </data>
+  <data name="&gt;&gt;PlayerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShirtNumber.Name" xml:space="preserve">
+    <value>ShirtNumber</value>
+  </data>
+  <data name="&gt;&gt;ShirtNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Position.Name" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="&gt;&gt;Position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Captain.Name" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="&gt;&gt;Captain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tstbChampionship.Name" xml:space="preserve">
+    <value>tstbChampionship</value>
+  </data>
+  <data name="&gt;&gt;tstbChampionship.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripRepresentations.Name" xml:space="preserve">
+    <value>toolStripRepresentations</value>
+  </data>
+  <data name="&gt;&gt;toolStripRepresentations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewImageColumn1.Name" xml:space="preserve">
+    <value>dataGridViewImageColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewImageColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewImageColumn2.Name" xml:space="preserve">
+    <value>dataGridViewImageColumn2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewImageColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewImageColumn3.Name" xml:space="preserve">
+    <value>dataGridViewImageColumn3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewImageColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HomePage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

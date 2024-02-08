@@ -1,0 +1,71 @@
+﻿<Window x:Class="WorldCupWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorldCupWPF"
+        Closing="MainWindow_Closing"
+        mc:Ignorable="d"
+Title="World Cup Board" Height="822" Width="1039" Background="Green">
+    <Viewbox Stretch="Uniform">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="380"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+                <ColumnDefinition Width="75"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="lblFavoriteTeam" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Center" Content="Favorite team"/>
+            <Label x:Name="lblRivalTeam" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Center" Content="Rival team"/>
+
+            <Label x:Name="lblResult" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Center">Result</Label>
+
+            <ComboBox x:Name="cbFavoriteTeam" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" SelectionChanged="cmbFavoriteTeam_SelectionChanged"/>
+            <ComboBox x:Name="cbRivalTeam" Grid.Column="5" Grid.ColumnSpan="3" Grid.Row="1" SelectionChanged="cmbRivalTeam_SelectionChanged"/>
+
+            <Label x:Name="lblFavoriteTeamScore" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Right" FontWeight="Heavy" FontSize="18">0</Label>
+            <Label x:Name="lblRivalTeamScore" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Left" FontWeight="Heavy" FontSize="18">0</Label>
+
+            <Label Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontWeight="Heavy" FontSize="18">:</Label>
+
+            <StackPanel x:Name="stpFavoriteGoalie" Grid.Column="0" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="stpFavoriteDefender" Grid.Column="1" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="stpFavoriteMidfield" Grid.Column="2" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="stpFavoriteForward" Grid.Column="3" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <StackPanel x:Name="stpRivalGoalie" Grid.Column="7" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="stpRivalDefender" Grid.Column="6" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="stpRivalMidfield" Grid.Column="5" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="stpRivalForward" Grid.Column="4" Grid.Row="5" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <Button x:Name="btnSettings" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2" Click="btnSettings_Click">Settings</Button>
+            <Button x:Name="btnFavorite" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" Click="btnFavorite_Click">Set as favorite</Button>
+
+            <Button x:Name="btnFavoriteTeamOverview" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" Click="btnFavoriteTeamOverview_Click">Overview</Button>
+            <Button x:Name="btnRivalTeamOverview" Grid.Column="5" Grid.Row="2" Grid.ColumnSpan="3" Click="btnRivalTeamOverview_Click" Height="20" Grid.RowSpan="2" VerticalAlignment="Top">Overview</Button>
+
+
+
+
+            <Canvas Grid.Row="5" Grid.ColumnSpan="8" Panel.ZIndex="-1">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="C:\Users\Sara\Desktop\Sara.NET\WorldCupScore\WorldCupScore-OOP\Resources\soccerField.jpg"/>
+                </Canvas.Background>
+            </Canvas>
+
+        </Grid>
+    </Viewbox>
+</Window>
+

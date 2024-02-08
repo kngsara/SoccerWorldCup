@@ -1,0 +1,47 @@
+﻿<Window x:Class="WorldCupWPF.ScoreOverviewBoard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorldCupWPF"
+        mc:Ignorable="d"
+Title="Soccer Score Overview Board" Height="350" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid Background="LightGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Name="lblOverview" Content="Overview of Soccer Scores" HorizontalAlignment="Center" Margin="0,10,0,5" FontSize="16"/>
+
+        <Grid Grid.Row="1" Background="Green" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="10">
+                <Label x:Name="lblCountryCode" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="left">Country code</Label>
+                <Label x:Name="lblWins" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="left">Team wins</Label>
+                <Label x:Name="lblLosses" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left">Losses</Label>
+                <Label x:Name="lblDraws" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left">Draws</Label>
+                <Label x:Name="lblGamesPlayed" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left">Games played</Label>
+                <Label x:Name="lblPoints" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left">Points</Label>
+                <Label x:Name="lblGoalsFor" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left">Goals for</Label>
+                <Label x:Name="lblGoalsAgainst" Grid.Column="0" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left">Goals against</Label>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Margin="10">
+                <Label x:Name="lblCountryCodeScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left" Height="30" Width="16">  </Label>
+                <Label x:Name="lblTeamWinsScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left" Height="30">0</Label>
+                <Label x:Name="lblLossesScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left"  Height="30">0</Label>
+                <Label x:Name="lblDrawsScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left"  Height="30">0</Label>
+                <Label x:Name="lblGamesPlayedScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left"  Height="30">0</Label>
+                <Label x:Name="lblPointsScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left"  Height="30">0</Label>
+                <Label x:Name="lblGoalsForScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left" Height="30">0</Label>
+                <Label x:Name="lblGoalsAgainstScore" Grid.Column="1" Grid.Row="1" HorizontalAlignment="left" Height="30">0</Label>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

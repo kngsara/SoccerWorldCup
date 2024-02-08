@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="WorldCupWPF.PlayerIcon"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WorldCupWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" Click="Button_Click">
+            <Button.Background>
+                <SolidColorBrush Color="LightGreen" ></SolidColorBrush>
+            </Button.Background>
+            <StackPanel>
+                <Image x:Name="imgIcon" Source="C:\Users\Sara\Desktop\Sara.NET\WorldCupScore\WorldCupScore-OOP\Resources\donaldIcon.jpg" Stretch="Uniform" Height="40"/>
+                <TextBlock x:Name="tbCaption" HorizontalAlignment="Center" FontSize="7" TextWrapping="Wrap">PLAYER</TextBlock>
+            </StackPanel>
+        </Button>
+    </Grid>
+</UserControl>
